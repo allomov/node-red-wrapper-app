@@ -1,7 +1,7 @@
 var http = require('http');
 var express = require("express");
-
 var RED = require("node-red");
+
 
 // Create an Express app
 var app = express();
@@ -14,9 +14,10 @@ var server = http.createServer(app);
 
 // Create the settings object - see default settings.js file for other options
 var settings = {
-    httpAdminRoot:"/red",
+	nodesDir: "/Users/allomov/work/altoros/node-red/app/nodes",
+    httpAdminRoot:"/",
     httpNodeRoot: "/api",
-    uiPort: process.env.PORT || 1880,
+    uiPort: process.env.PORT,
     functionGlobalContext: { }    // enables global context
 };
 
