@@ -1,0 +1,7 @@
+{
+    "name": "node-red-app",
+    "dependencies": {
+        "node-red": "0.x",
+        "node-red-contrib-infusion-pump": "file:/Users/allomov/work/altoros/node-red/nodes/node-red-contrib-infusion-pump"
+    }
+}
