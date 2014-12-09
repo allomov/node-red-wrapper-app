@@ -1,6 +1,7 @@
 {
     "name": "node-red-app",
     "dependencies": {
+        "express": "4.10.x",
         "node-red": "0.x",
         "node-red-contrib-infusion-pump": "file:/Users/allomov/work/altoros/node-red/nodes/node-red-contrib-infusion-pump"
     }
