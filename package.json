@@ -1,5 +1,6 @@
 {
     "name": "node-red-app",
+    "start": "node app.js",
     "dependencies": {
         "express": "4.10.x",
         "node-red": "0.x"
