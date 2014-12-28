@@ -1,6 +1,6 @@
 ---
 applications:
-- name: node-red-app
+- name: node-red-app-1
   memory: 512Mb
   instances: 1
   services:
