@@ -7,7 +7,12 @@ var RED = require("node-red");
 var app = express();
 
 // Add a simple route for static content served from 'public'
-app.use("/",express.static("public"));
+app.use("/", express.static("public"));
+app.get('/env', function (req, res) {
+  var environtment = "";
+  for (v in process.env) { environtment += v + ": " + process.env[v] + "<br/>" } 
+  res.send(environtment);
+})
 
 // Create a server
 var server = http.createServer(app);

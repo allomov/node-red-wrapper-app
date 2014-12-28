@@ -1,0 +1,7 @@
+---
+applications:
+- name: node-red-app
+  memory: 512Mb
+  instances: 1
+  services:
+    - node-red-mongodb
